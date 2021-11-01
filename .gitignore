@@ -13,3 +13,7 @@ node_modules/
 /.env
 /alembic.ini
 /migrations/
+.output
+/output/
+output/
+/output

@@ -49,7 +49,7 @@ def import_urls_from_csv() -> list:
 def create_price_exle(data: list[dict]):
     workbook = xlsxwriter.Workbook('defo_price.xlsx')
     worksheet = workbook.add_worksheet()
-    worksheet.write(0, 0, "article""url")
+    worksheet.write(0, 0, "url")
     worksheet.write(0, 1, 'new_price')
     worksheet.write(0, 2, 'old_price')
     worksheet.write(0, 3, "article")
